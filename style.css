@@ -1,0 +1,42 @@
+*{
+    margin: 0; padding: 0%; 
+}
+body{
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Бутон за старт */
+.button {
+    border: none;
+    width: 800px; height: 560px;
+    background-color: white;
+    background-image: url(Images/background_01.png);
+  }
+/* Игрово поле */
+.game{
+    width: 800px; height: 560px;
+    background-image: url(Images/background_02.png);
+    position: relative; 
+}
+/* "Червена линия" - при преминаване играта завършва */
+.redline{
+    width: 100%; height: 15px;
+    position: absolute;
+    bottom: 0;
+}
+/* Главен герой в играта */
+.angelo{
+    width: 80px; height: 80px;
+    background-image: url(Images/Angelo.png);
+    position: absolute;
+    bottom: 15px;
+    left: calc(50% - 25px);
+}
+/* Бонбони */
+.candy{
+    width: 30px; height: 30px;
+    background-image: url(Images/candy.png);
+    position: absolute;
+}
